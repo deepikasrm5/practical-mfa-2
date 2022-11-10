@@ -1,0 +1,139 @@
+*{
+    margin-left:10px;
+    padding:0;
+}
+.header{
+    margin-top:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-content:center;
+}
+div ul li{
+    display:inline;
+    text-decoration:none;
+}
+.header__nav-bar{
+    text-decoration:none;
+    color: hsl(240, 100%, 5%);
+    font-family:"Inter";
+}
+.two{
+    display:flex;
+    width:80%;
+}
+section{
+    display:flex;
+}
+.one #color{
+    width:80%;
+    height: 400px;
+}
+#one{
+    margin-left:-20px;
+    margin-top:20px;
+}
+h1{
+    color: hsl(240, 100%, 5%);
+    font-family:"Inter";
+    font-weight:800;
+    font-size:50px;
+}
+p{
+    font-size:20px;
+    font-family:"Inter";
+    color:hsl(236, 13%, 42%);
+}
+.main-2{
+    display:flex;
+}
+button{
+    padding:15px 20px;
+    width:30%;
+    background-color:hsl(5, 85%, 63%);
+    border-color:hsl(5, 85%, 63%);
+    margin-top:40px;
+}
+button a{
+    text-decoration:none;
+    color:white;
+}
+.three{
+    margin-left:-15%;
+    background-color:black;
+    font-family:"Inter";
+    height:70%;
+}
+.three .three__one h2{
+    color:goldenrod;
+    font-size:40px;
+    margin-top:-40px;
+}
+.three .three__one h3{
+    color:white;
+}
+.three__one{
+    margin-top:20px;
+    border-bottom:1px solid hsl(233, 8%, 79%);
+    padding-top:30px;
+    padding-bottom:30px;
+}
+h2{
+    color: hsl(233, 8%, 79%);
+    font-weight:bold;
+    font-size:40px;
+    font-family:"Inter";
+}
+#retro__pc{
+    display:inline;
+}
+.short-2{
+    display:flex;
+    flex-direction:row;
+}
+.short-3{
+    display:flex;
+    flex-direction:row;
+}
+.short-1{
+    display:flex;
+    flex-direction:row;
+}
+h3{
+    font-family:"Inter";
+    color:black;
+    font-weight:800;
+}
+.three__onee h3{
+    color:white;
+    font-family:"Inter";
+    padding-top:30px;
+}
+div ul li a:hover{
+    color:#c05326;
+    transition:0.2s;
+}
+main div button:hover{
+    background-color:black;
+    border-color:black;
+    transition:0.2s;
+}
+.main-2 h3 a{
+    text-decoration:none;
+    color:black;
+}
+.main-2 h3 a:hover{
+    color:#c05326;
+    transition:0.2s;
+}
+.three h3 a{
+    text-decoration:none;
+    color:white;
+}
+.three h3 a:hover{
+    color:goldenrod;
+    transition:0.2s;
+}
